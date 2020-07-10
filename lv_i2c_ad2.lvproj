@@ -14,6 +14,7 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_hal/lv_i2c_hal.lvlib"/>
+				<Item Name="lv_waveforms_toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_waveforms_toolkit/lv_waveforms_toolkit.lvlib"/>
 				<Item Name="lv_waveforms_toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_ad2/lv_waveforms_toolkit.lvlib"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
