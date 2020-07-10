@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:35:13" Modified_Date="2020-07-10 22:36:25" Creator="user" Comments="" ID="cfb256a01f3059bcbaabf01afd931462">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2020-07-10 22:35:13" Modified_Date="2020-07-11 00:48:44" Creator="user" Comments="" ID="1d966e50c5889e9f977245ff9cdfa07e">
   <Library_General_Settings>
     <Package_File_Name>lv_i2c_ad2</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\VIPM\Build</Library_Output_Folder>
@@ -111,9 +111,6 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Compile_Exclusions>
-        <Path/>
-      </Compile_Exclusions>
     </Source_Files>
     <License_Agreement_Filepath/>
     <Licensing_and_Activation>
@@ -213,7 +210,7 @@
         <Path>AD2 I2C</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D630805A23F39205C1D48599E30D2B65</GUID>
+      <GUID>BD0E067D69451C822E6409F1BEAB389F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -304,7 +301,7 @@
         <Path>AD2 I2C\Write.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>806452A2D54FDD5FC39E3FE75EAA3D1F</GUID>
+      <GUID>8C7E4B2D730B6BC1847BB96CAC316B95</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
