@@ -11,10 +11,10 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="lv_i2c_ad2.lvlib" Type="Library" URL="../lv_i2c_ad2.lvlib"/>
-		<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="../../lv_i2c_hal/lv_i2c_hal.lvlib"/>
-		<Item Name="lv_waveforms_toolkit.lvlib" Type="Library" URL="../../lv_waveforms_toolkit/lv_waveforms_toolkit.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="lv_i2c_hal.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_hal/lv_i2c_hal.lvlib"/>
+				<Item Name="lv_waveforms_toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/miidas/lv_i2c_ad2/lv_waveforms_toolkit.lvlib"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="dwf" Type="VI" URL="dwf">
